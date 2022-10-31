@@ -38,7 +38,11 @@ for k,v in data_dict.items():
     if keys==0:
       l.append(vals)
 print(l)
-
+#Heights and width
+i=int(l[0])
+j=int(l[1])
+w=int(l[2])
+h=int(l[3])
 
 #cropping image
 img = cv2.imread('/content/yolov5/runs/detect/exp/tomato.JPG')
